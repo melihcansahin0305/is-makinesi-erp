@@ -1,6 +1,6 @@
 {
   "charts": [],
-  "content": "[{\"id\":\"shortcut_section\",\"type\":\"shortcut\",\"data\":{\"col\":12}},{\"id\":\"links_section\",\"type\":\"card\",\"data\":{\"card_name\":\"Makine Y\\u00f6netimi\",\"col\":4}},{\"id\":\"links_section_2\",\"type\":\"card\",\"data\":{\"card_name\":\"Personel Y\\u00f6netimi\",\"col\":4}},{\"id\":\"links_section_3\",\"type\":\"card\",\"data\":{\"card_name\":\"\\u00dcretim ve Sat\\u0131\\u015f\",\"col\":4}},{\"id\":\"links_section_4\",\"type\":\"card\",\"data\":{\"card_name\":\"Raporlar\",\"col\":4}}]",
+  "content": "[{\"id\":\"shortcut_section\",\"type\":\"shortcut\",\"data\":{\"col\":12}},{\"id\":\"card_section_1\",\"type\":\"card\",\"data\":{\"card_name\":\"Makine Yonetimi\",\"col\":4}},{\"id\":\"card_section_2\",\"type\":\"card\",\"data\":{\"card_name\":\"Personel Yonetimi\",\"col\":4}},{\"id\":\"card_section_3\",\"type\":\"card\",\"data\":{\"card_name\":\"Uretim ve Satis\",\"col\":4}},{\"id\":\"card_section_4\",\"type\":\"card\",\"data\":{\"card_name\":\"Raporlar\",\"col\":4}}]",
   "creation": "2024-01-01 00:00:00.000000",
   "custom_blocks": [],
   "doctype": "Workspace",
@@ -10,12 +10,12 @@
   "idx": 0,
   "is_default": 0,
   "is_standard": 1,
-  "label": "\u0130\u015f Makinesi ERP",
+  "label": "Is Makinesi ERP",
   "links": [
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "Makine Y\u00f6netimi",
+      "label": "Makine Yonetimi",
       "link_count": 0,
       "onboard": 0,
       "type": "Card Break"
@@ -43,7 +43,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "Makine Hakedi\u015f",
+      "label": "Makine Hakedis",
       "link_count": 0,
       "link_to": "Makine Hakedis",
       "link_type": "DocType",
@@ -53,7 +53,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "Yak\u0131t Kayd\u0131",
+      "label": "Yakit Kaydi",
       "link_count": 0,
       "link_to": "Yakit Kaydi",
       "link_type": "DocType",
@@ -63,7 +63,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "Bak\u0131m Kayd\u0131",
+      "label": "Bakim Kaydi",
       "link_count": 0,
       "link_to": "Bakim Kaydi",
       "link_type": "DocType",
@@ -73,7 +73,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "Personel Y\u00f6netimi",
+      "label": "Personel Yonetimi",
       "link_count": 0,
       "onboard": 0,
       "type": "Card Break"
@@ -91,7 +91,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "Personel Hakedi\u015f",
+      "label": "Personel Hakedis",
       "link_count": 0,
       "link_to": "Personel Hakedis",
       "link_type": "DocType",
@@ -101,7 +101,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "\u00dcretim ve Sat\u0131\u015f",
+      "label": "Uretim ve Satis",
       "link_count": 0,
       "onboard": 0,
       "type": "Card Break"
@@ -109,7 +109,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "C\u00fcruf \u0130\u015fleme",
+      "label": "Curuf Isleme",
       "link_count": 0,
       "link_to": "Curuf Isleme",
       "link_type": "DocType",
@@ -119,7 +119,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "Kantar Fi\u015fi",
+      "label": "Kantar Fisi",
       "link_count": 0,
       "link_to": "Kantar Fisi",
       "link_type": "DocType",
@@ -129,7 +129,7 @@
     {
       "hidden": 0,
       "is_query_report": 0,
-      "label": "Skal Sat\u0131\u015f",
+      "label": "Skal Satis",
       "link_count": 0,
       "link_to": "Skal Satis",
       "link_type": "DocType",
@@ -147,7 +147,7 @@
     {
       "hidden": 0,
       "is_query_report": 1,
-      "label": "Makine K\u00e2r-Zarar",
+      "label": "Makine Kar Zarar",
       "link_count": 0,
       "link_to": "Makine Kar Zarar",
       "link_type": "Report",
@@ -157,7 +157,7 @@
     {
       "hidden": 0,
       "is_query_report": 1,
-      "label": "Proje K\u00e2r-Zarar",
+      "label": "Proje Kar Zarar",
       "link_count": 0,
       "link_to": "Proje Kar Zarar",
       "link_type": "Report",
@@ -187,7 +187,7 @@
     {
       "hidden": 0,
       "is_query_report": 1,
-      "label": "Hakedi\u015f Raporu",
+      "label": "Hakedis Raporu",
       "link_count": 0,
       "link_to": "Hakedis Raporu",
       "link_type": "Report",
@@ -231,52 +231,52 @@
     {
       "color": "Orange",
       "doc_view": "List",
-      "label": "Makine Hakedi\u015f",
+      "label": "Makine Hakedis",
       "link_to": "Makine Hakedis",
       "type": "DocType"
     },
     {
       "color": "Orange",
       "doc_view": "List",
-      "label": "Personel Hakedi\u015f",
+      "label": "Personel Hakedis",
       "link_to": "Personel Hakedis",
       "type": "DocType"
     },
     {
       "color": "Yellow",
       "doc_view": "List",
-      "label": "Yak\u0131t Kayd\u0131",
+      "label": "Yakit Kaydi",
       "link_to": "Yakit Kaydi",
       "type": "DocType"
     },
     {
       "color": "Red",
       "doc_view": "List",
-      "label": "Bak\u0131m Kayd\u0131",
+      "label": "Bakim Kaydi",
       "link_to": "Bakim Kaydi",
       "type": "DocType"
     },
     {
       "color": "Purple",
       "doc_view": "List",
-      "label": "C\u00fcruf \u0130\u015fleme",
+      "label": "Curuf Isleme",
       "link_to": "Curuf Isleme",
       "type": "DocType"
     },
     {
       "color": "Grey",
       "doc_view": "List",
-      "label": "Kantar Fi\u015fi",
+      "label": "Kantar Fisi",
       "link_to": "Kantar Fisi",
       "type": "DocType"
     },
     {
       "color": "Cyan",
       "doc_view": "List",
-      "label": "Skal Sat\u0131\u015f",
+      "label": "Skal Satis",
       "link_to": "Skal Satis",
       "type": "DocType"
     }
   ],
-  "title": "\u0130\u015f Makinesi ERP"
+  "title": "Is Makinesi ERP"
 }
