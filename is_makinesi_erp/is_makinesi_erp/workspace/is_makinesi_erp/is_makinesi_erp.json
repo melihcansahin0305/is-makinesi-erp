@@ -1,6 +1,6 @@
 {
   "charts": [],
-  "content": "[{\"id\":\"shortcut_section\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\",\"col\":12}},{\"id\":\"links_section\",\"type\":\"links\",\"data\":{\"link_name\":\"\",\"col\":12}}]",
+  "content": "[{\"id\":\"shortcut_section\",\"type\":\"shortcut\",\"data\":{\"col\":12}},{\"id\":\"links_section\",\"type\":\"card\",\"data\":{\"card_name\":\"Makine Y\\u00f6netimi\",\"col\":4}},{\"id\":\"links_section_2\",\"type\":\"card\",\"data\":{\"card_name\":\"Personel Y\\u00f6netimi\",\"col\":4}},{\"id\":\"links_section_3\",\"type\":\"card\",\"data\":{\"card_name\":\"\\u00dcretim ve Sat\\u0131\\u015f\",\"col\":4}},{\"id\":\"links_section_4\",\"type\":\"card\",\"data\":{\"card_name\":\"Raporlar\",\"col\":4}}]",
   "creation": "2024-01-01 00:00:00.000000",
   "custom_blocks": [],
   "doctype": "Workspace",
