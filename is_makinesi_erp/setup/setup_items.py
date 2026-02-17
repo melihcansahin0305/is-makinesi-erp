@@ -39,9 +39,12 @@ def create_skal_items():
 
 
 def _create_warehouse():
-	"""Skal Deposu warehouse'unu oluşturur (yoksa)."""
+	"""Skal Deposu warehouse'unu oluşturur (yoksa). Company tanımlı değilse atlar."""
+	company = frappe.defaults.get_defaults().get("company")
+	if not company:
+		# ERPNext setup wizard henüz tamamlanmamış, warehouse sonra oluşturulacak
+		return
 	if not frappe.db.exists("Warehouse", DEFAULT_WAREHOUSE):
-		company = frappe.defaults.get_defaults().get("company")
 		warehouse = frappe.get_doc(
 			{
 				"doctype": "Warehouse",
@@ -51,6 +54,7 @@ def _create_warehouse():
 		)
 		warehouse.insert(ignore_permissions=True)
 		frappe.db.commit()
+
 
 
 def _create_items():
