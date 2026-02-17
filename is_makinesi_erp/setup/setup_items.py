@@ -57,8 +57,36 @@ def _create_warehouse():
 
 
 
+
+def _ensure_item_group():
+	"""Products Item Group yoksa oluşturur."""
+	if not frappe.db.exists("Item Group", "Products"):
+		parent = "All Item Groups" if frappe.db.exists("Item Group", "All Item Groups") else ""
+		doc = frappe.get_doc({
+			"doctype": "Item Group",
+			"item_group_name": "Products",
+			"parent_item_group": parent,
+		})
+		doc.insert(ignore_permissions=True)
+		frappe.db.commit()
+
+
+def _ensure_uom():
+	"""Kg UOM yoksa oluşturur."""
+	if not frappe.db.exists("UOM", "Kg"):
+		doc = frappe.get_doc({
+			"doctype": "UOM",
+			"uom_name": "Kg",
+		})
+		doc.insert(ignore_permissions=True)
+		frappe.db.commit()
+
+
 def _create_items():
-	"""Skal Item kayıtlarını oluşturur (yoksa)."""
+	"""Skal Item kayıtlarını oluşturur (yoksa). Gerekli bağımlılıkları kontrol eder."""
+	_ensure_item_group()
+	_ensure_uom()
+
 	for item_data in SKAL_ITEMS:
 		if not frappe.db.exists("Item", item_data["item_code"]):
 			item = frappe.get_doc(
@@ -70,3 +98,5 @@ def _create_items():
 			item.insert(ignore_permissions=True)
 
 	frappe.db.commit()
+
+
