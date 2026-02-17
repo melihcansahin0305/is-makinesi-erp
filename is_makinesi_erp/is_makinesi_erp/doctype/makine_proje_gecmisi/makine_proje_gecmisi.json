@@ -1,0 +1,47 @@
+{
+  "actions": [],
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "proje",
+    "baslangic_tarihi",
+    "bitis_tarihi"
+  ],
+  "fields": [
+    {
+      "fieldname": "proje",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Proje",
+      "options": "Project",
+      "reqd": 1
+    },
+    {
+      "fieldname": "baslangic_tarihi",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "label": "Ba\u015flang\u0131\u00e7 Tarihi",
+      "reqd": 1
+    },
+    {
+      "fieldname": "bitis_tarihi",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "label": "Biti\u015f Tarihi"
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "istable": 1,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Makine Proje Gecmisi",
+  "naming_rule": "Random",
+  "owner": "Administrator",
+  "permissions": [],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 0
+}

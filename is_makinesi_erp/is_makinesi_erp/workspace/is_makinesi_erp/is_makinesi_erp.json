@@ -1,0 +1,282 @@
+{
+  "charts": [],
+  "content": "[{\"id\":\"shortcut_section\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\",\"col\":12}},{\"id\":\"links_section\",\"type\":\"links\",\"data\":{\"link_name\":\"\",\"col\":12}}]",
+  "creation": "2024-01-01 00:00:00.000000",
+  "custom_blocks": [],
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "tool",
+  "idx": 0,
+  "is_default": 0,
+  "is_standard": 1,
+  "label": "\u0130\u015f Makinesi ERP",
+  "links": [
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Makine Y\u00f6netimi",
+      "link_count": 0,
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Makine",
+      "link_count": 0,
+      "link_to": "Makine",
+      "link_type": "DocType",
+      "onboard": 1,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Makine Puantaj",
+      "link_count": 0,
+      "link_to": "Makine Puantaj",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Makine Hakedi\u015f",
+      "link_count": 0,
+      "link_to": "Makine Hakedis",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Yak\u0131t Kayd\u0131",
+      "link_count": 0,
+      "link_to": "Yakit Kaydi",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Bak\u0131m Kayd\u0131",
+      "link_count": 0,
+      "link_to": "Bakim Kaydi",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Personel Y\u00f6netimi",
+      "link_count": 0,
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Personel Puantaj",
+      "link_count": 0,
+      "link_to": "Personel Puantaj",
+      "link_type": "DocType",
+      "onboard": 1,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Personel Hakedi\u015f",
+      "link_count": 0,
+      "link_to": "Personel Hakedis",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "\u00dcretim ve Sat\u0131\u015f",
+      "link_count": 0,
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "C\u00fcruf \u0130\u015fleme",
+      "link_count": 0,
+      "link_to": "Curuf Isleme",
+      "link_type": "DocType",
+      "onboard": 1,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Kantar Fi\u015fi",
+      "link_count": 0,
+      "link_to": "Kantar Fisi",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Skal Sat\u0131\u015f",
+      "link_count": 0,
+      "link_to": "Skal Satis",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Raporlar",
+      "link_count": 0,
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Makine K\u00e2r-Zarar",
+      "link_count": 0,
+      "link_to": "Makine Kar Zarar",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Proje K\u00e2r-Zarar",
+      "link_count": 0,
+      "link_to": "Proje Kar Zarar",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Puantaj Raporu",
+      "link_count": 0,
+      "link_to": "Puantaj Raporu",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Stok Durumu",
+      "link_count": 0,
+      "link_to": "Stok Durumu",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Hakedi\u015f Raporu",
+      "link_count": 0,
+      "link_to": "Hakedis Raporu",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    }
+  ],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Is Makinesi ERP",
+  "number_cards": [],
+  "owner": "Administrator",
+  "parent_page": "",
+  "public": 1,
+  "restrict_to_domain": "",
+  "roles": [],
+  "sequence_id": 1,
+  "shortcuts": [
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "Makine",
+      "link_to": "Makine",
+      "type": "DocType"
+    },
+    {
+      "color": "Green",
+      "doc_view": "List",
+      "label": "Makine Puantaj",
+      "link_to": "Makine Puantaj",
+      "type": "DocType"
+    },
+    {
+      "color": "Green",
+      "doc_view": "List",
+      "label": "Personel Puantaj",
+      "link_to": "Personel Puantaj",
+      "type": "DocType"
+    },
+    {
+      "color": "Orange",
+      "doc_view": "List",
+      "label": "Makine Hakedi\u015f",
+      "link_to": "Makine Hakedis",
+      "type": "DocType"
+    },
+    {
+      "color": "Orange",
+      "doc_view": "List",
+      "label": "Personel Hakedi\u015f",
+      "link_to": "Personel Hakedis",
+      "type": "DocType"
+    },
+    {
+      "color": "Yellow",
+      "doc_view": "List",
+      "label": "Yak\u0131t Kayd\u0131",
+      "link_to": "Yakit Kaydi",
+      "type": "DocType"
+    },
+    {
+      "color": "Red",
+      "doc_view": "List",
+      "label": "Bak\u0131m Kayd\u0131",
+      "link_to": "Bakim Kaydi",
+      "type": "DocType"
+    },
+    {
+      "color": "Purple",
+      "doc_view": "List",
+      "label": "C\u00fcruf \u0130\u015fleme",
+      "link_to": "Curuf Isleme",
+      "type": "DocType"
+    },
+    {
+      "color": "Grey",
+      "doc_view": "List",
+      "label": "Kantar Fi\u015fi",
+      "link_to": "Kantar Fisi",
+      "type": "DocType"
+    },
+    {
+      "color": "Cyan",
+      "doc_view": "List",
+      "label": "Skal Sat\u0131\u015f",
+      "link_to": "Skal Satis",
+      "type": "DocType"
+    }
+  ],
+  "title": "\u0130\u015f Makinesi ERP"
+}

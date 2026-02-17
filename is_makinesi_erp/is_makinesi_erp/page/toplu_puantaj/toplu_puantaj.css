@@ -1,0 +1,10 @@
+.toplu-puantaj-body .table td {
+	vertical-align: middle;
+	padding: 4px 8px;
+}
+.toplu-puantaj-body .table td .frappe-control {
+	margin-bottom: 0;
+}
+.toplu-puantaj-body .table td .frappe-control .form-group {
+	margin-bottom: 0;
+}

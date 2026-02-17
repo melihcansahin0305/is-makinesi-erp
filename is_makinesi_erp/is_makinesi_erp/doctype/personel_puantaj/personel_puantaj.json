@@ -1,0 +1,105 @@
+{
+  "actions": [],
+  "autoname": "PP-.YYYY.-.####",
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "personel",
+    "tarih",
+    "proje",
+    "column_break_1",
+    "calisma_saati",
+    "mesai_saati",
+    "mesai_durumu",
+    "section_break_diger",
+    "aciklama"
+  ],
+  "fields": [
+    {
+      "fieldname": "personel",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Personel",
+      "options": "Employee",
+      "reqd": 1
+    },
+    {
+      "fieldname": "tarih",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Tarih",
+      "reqd": 1
+    },
+    {
+      "fieldname": "proje",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Proje",
+      "options": "Project",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "calisma_saati",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "\u00c7al\u0131\u015fma Saati",
+      "reqd": 1
+    },
+    {
+      "fieldname": "mesai_saati",
+      "fieldtype": "Float",
+      "default": "0",
+      "label": "Mesai Saati"
+    },
+    {
+      "fieldname": "mesai_durumu",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Mesai Durumu",
+      "options": "Normal\nFazla Mesai"
+    },
+    {
+      "fieldname": "section_break_diger",
+      "fieldtype": "Section Break",
+      "label": "Di\u011fer Bilgiler"
+    },
+    {
+      "fieldname": "aciklama",
+      "fieldtype": "Small Text",
+      "label": "A\u00e7\u0131klama"
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Personel Puantaj",
+  "naming_rule": "By \"Naming Series\"",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 1
+}

@@ -1,0 +1,49 @@
+{
+  "actions": [],
+  "autoname": "YK-.YYYY.-.####",
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "makine",
+    "tarih",
+    "column_break_1",
+    "miktar_litre",
+    "birim_fiyat",
+    "toplam_tutar",
+    "section_break_sayac",
+    "saat_sayaci",
+    "column_break_2",
+    "km_sayaci",
+    "section_break_aciklama",
+    "aciklama"
+  ],
+  "fields": [
+    {"fieldname": "makine", "fieldtype": "Link", "in_list_view": 1, "in_standard_filter": 1, "label": "Makine", "options": "Makine", "reqd": 1},
+    {"fieldname": "tarih", "fieldtype": "Date", "in_list_view": 1, "in_standard_filter": 1, "label": "Tarih", "reqd": 1},
+    {"fieldname": "column_break_1", "fieldtype": "Column Break"},
+    {"fieldname": "miktar_litre", "fieldtype": "Float", "in_list_view": 1, "label": "Miktar (Lt)", "reqd": 1},
+    {"fieldname": "birim_fiyat", "fieldtype": "Currency", "label": "Birim Fiyat", "reqd": 1},
+    {"fieldname": "toplam_tutar", "fieldtype": "Currency", "in_list_view": 1, "label": "Toplam Tutar", "read_only": 1},
+    {"fieldname": "section_break_sayac", "fieldtype": "Section Break", "label": "Saya\u00e7 Bilgileri"},
+    {"fieldname": "saat_sayaci", "fieldtype": "Float", "label": "Saat Sayac\u0131"},
+    {"fieldname": "column_break_2", "fieldtype": "Column Break"},
+    {"fieldname": "km_sayaci", "fieldtype": "Float", "label": "KM Sayac\u0131"},
+    {"fieldname": "section_break_aciklama", "fieldtype": "Section Break", "label": "A\u00e7\u0131klama"},
+    {"fieldname": "aciklama", "fieldtype": "Small Text", "label": "A\u00e7\u0131klama"}
+  ],
+  "index_web_pages_for_search": 0,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Yakit Kaydi",
+  "naming_rule": "By \"Naming Series\"",
+  "owner": "Administrator",
+  "permissions": [
+    {"create": 1, "delete": 1, "email": 1, "export": 1, "print": 1, "read": 1, "report": 1, "role": "System Manager", "share": 1, "write": 1}
+  ],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 1
+}

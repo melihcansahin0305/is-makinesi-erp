@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include is_makinesi_erp *.css
+recursive-include is_makinesi_erp *.csv
+recursive-include is_makinesi_erp *.html
+recursive-include is_makinesi_erp *.ico
+recursive-include is_makinesi_erp *.js
+recursive-include is_makinesi_erp *.json
+recursive-include is_makinesi_erp *.md
+recursive-include is_makinesi_erp *.png
+recursive-include is_makinesi_erp *.py
+recursive-include is_makinesi_erp *.svg
+recursive-include is_makinesi_erp *.txt
+recursive-exclude is_makinesi_erp *.pyc

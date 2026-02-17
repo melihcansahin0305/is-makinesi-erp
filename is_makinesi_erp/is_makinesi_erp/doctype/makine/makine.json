@@ -1,0 +1,178 @@
+{
+  "actions": [],
+  "autoname": "MKN-.####",
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "makine_adi",
+    "makine_tipi",
+    "marka",
+    "model",
+    "column_break_1",
+    "plaka_seri_no",
+    "model_yili",
+    "durum",
+    "section_break_satin_alma",
+    "satin_alma_tarihi",
+    "satin_alma_bedeli",
+    "section_break_atama",
+    "mevcut_proje",
+    "mevcut_operator",
+    "column_break_2",
+    "saat_sayaci",
+    "sonraki_bakim_saati",
+    "section_break_gecmis",
+    "proje_gecmisi",
+    "section_break_notlar",
+    "notlar"
+  ],
+  "fields": [
+    {
+      "fieldname": "makine_adi",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Makine Ad\u0131",
+      "reqd": 1
+    },
+    {
+      "fieldname": "makine_tipi",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Makine Tipi",
+      "options": "Ekskavatör\nYükleyici\nKamyon\nDozer\nKırıcı\nDiğer"
+    },
+    {
+      "fieldname": "marka",
+      "fieldtype": "Data",
+      "label": "Marka"
+    },
+    {
+      "fieldname": "model",
+      "fieldtype": "Data",
+      "label": "Model"
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "plaka_seri_no",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Plaka / Seri No",
+      "unique": 1
+    },
+    {
+      "fieldname": "model_yili",
+      "fieldtype": "Int",
+      "label": "Model Y\u0131l\u0131"
+    },
+    {
+      "default": "Aktif",
+      "fieldname": "durum",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Durum",
+      "options": "Aktif\nBak\u0131mda\nAr\u0131zal\u0131\nPasif"
+    },
+    {
+      "fieldname": "section_break_satin_alma",
+      "fieldtype": "Section Break",
+      "label": "Sat\u0131n Alma Bilgileri"
+    },
+    {
+      "fieldname": "satin_alma_tarihi",
+      "fieldtype": "Date",
+      "label": "Sat\u0131n Alma Tarihi"
+    },
+    {
+      "fieldname": "satin_alma_bedeli",
+      "fieldtype": "Currency",
+      "label": "Sat\u0131n Alma Bedeli"
+    },
+    {
+      "fieldname": "section_break_atama",
+      "fieldtype": "Section Break",
+      "label": "Atama Bilgileri"
+    },
+    {
+      "fieldname": "mevcut_proje",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Mevcut Proje",
+      "options": "Project"
+    },
+    {
+      "fieldname": "mevcut_operator",
+      "fieldtype": "Link",
+      "label": "Mevcut Operat\u00f6r",
+      "options": "Employee"
+    },
+    {
+      "fieldname": "column_break_2",
+      "fieldtype": "Column Break"
+    },
+    {
+      "default": "0",
+      "fieldname": "saat_sayaci",
+      "fieldtype": "Float",
+      "label": "Saat Sayac\u0131"
+    },
+    {
+      "default": "0",
+      "fieldname": "sonraki_bakim_saati",
+      "fieldtype": "Float",
+      "label": "Sonraki Bak\u0131m Saati"
+    },
+    {
+      "fieldname": "section_break_gecmis",
+      "fieldtype": "Section Break",
+      "label": "Proje Ge\u00e7mi\u015fi"
+    },
+    {
+      "fieldname": "proje_gecmisi",
+      "fieldtype": "Table",
+      "label": "Proje Ge\u00e7mi\u015fi",
+      "options": "Makine Proje Gecmisi"
+    },
+    {
+      "fieldname": "section_break_notlar",
+      "fieldtype": "Section Break",
+      "label": "Notlar"
+    },
+    {
+      "fieldname": "notlar",
+      "fieldtype": "Small Text",
+      "label": "Notlar"
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Makine",
+  "naming_rule": "By \"Naming Series\"",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 1
+}

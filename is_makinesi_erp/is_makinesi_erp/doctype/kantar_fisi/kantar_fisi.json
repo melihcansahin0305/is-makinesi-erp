@@ -1,0 +1,118 @@
+{
+  "actions": [],
+  "autoname": "KF-.YYYY.-.####",
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "fis_no",
+    "tartim_tarihi",
+    "urun_turu",
+    "column_break_1",
+    "musteri",
+    "arac_plakasi",
+    "section_break_agirlik",
+    "brut_agirlik",
+    "dara_agirlik",
+    "column_break_2",
+    "net_agirlik"
+  ],
+  "fields": [
+    {
+      "fieldname": "fis_no",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Fi\u015f No",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "tartim_tarihi",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Tart\u0131m Tarihi",
+      "reqd": 1
+    },
+    {
+      "fieldname": "urun_turu",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "\u00dcr\u00fcn T\u00fcr\u00fc",
+      "options": "Item",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "musteri",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "M\u00fc\u015fteri",
+      "options": "Customer",
+      "reqd": 1
+    },
+    {
+      "fieldname": "arac_plakasi",
+      "fieldtype": "Data",
+      "label": "Ara\u00e7 Plakas\u0131"
+    },
+    {
+      "fieldname": "section_break_agirlik",
+      "fieldtype": "Section Break",
+      "label": "A\u011f\u0131rl\u0131k Bilgileri"
+    },
+    {
+      "fieldname": "brut_agirlik",
+      "fieldtype": "Float",
+      "label": "Br\u00fct A\u011f\u0131rl\u0131k (kg)",
+      "reqd": 1
+    },
+    {
+      "fieldname": "dara_agirlik",
+      "fieldtype": "Float",
+      "label": "Dara A\u011f\u0131rl\u0131k (kg)",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_2",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "net_agirlik",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "Net A\u011f\u0131rl\u0131k (kg)",
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Kantar Fisi",
+  "naming_rule": "By \"Naming Series\"",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 1
+}

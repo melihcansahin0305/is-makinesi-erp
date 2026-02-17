@@ -1,0 +1,53 @@
+{
+  "actions": [],
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "parca_adi",
+    "miktar",
+    "birim_fiyat",
+    "tutar"
+  ],
+  "fields": [
+    {
+      "fieldname": "parca_adi",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Par\u00e7a Ad\u0131",
+      "reqd": 1
+    },
+    {
+      "fieldname": "miktar",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "Miktar"
+    },
+    {
+      "fieldname": "birim_fiyat",
+      "fieldtype": "Currency",
+      "in_list_view": 1,
+      "label": "Birim Fiyat"
+    },
+    {
+      "fieldname": "tutar",
+      "fieldtype": "Currency",
+      "in_list_view": 1,
+      "label": "Tutar",
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "istable": 1,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Kullanilan Parca",
+  "naming_rule": "Random",
+  "owner": "Administrator",
+  "permissions": [],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 0
+}

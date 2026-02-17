@@ -1,0 +1,106 @@
+{
+  "actions": [],
+  "autoname": "CI-.YYYY.-.####",
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "isleme_tarihi",
+    "tedarikci",
+    "column_break_1",
+    "curuf_miktari_ton",
+    "toplam_uretim_ton",
+    "verimlilik_orani",
+    "section_break_urunler",
+    "uretilen_urunler",
+    "amended_from"
+  ],
+  "fields": [
+    {
+      "fieldname": "isleme_tarihi",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "\u0130\u015fleme Tarihi",
+      "reqd": 1
+    },
+    {
+      "fieldname": "tedarikci",
+      "fieldtype": "Link",
+      "in_standard_filter": 1,
+      "label": "Tedarik\u00e7i",
+      "options": "Supplier"
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "curuf_miktari_ton",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "C\u00fcruf Miktar\u0131 (Ton)",
+      "reqd": 1
+    },
+    {
+      "fieldname": "toplam_uretim_ton",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "Toplam \u00dcretim (Ton)",
+      "read_only": 1
+    },
+    {
+      "fieldname": "verimlilik_orani",
+      "fieldtype": "Percent",
+      "label": "Verimlilik Oran\u0131 (%)",
+      "read_only": 1
+    },
+    {
+      "fieldname": "section_break_urunler",
+      "fieldtype": "Section Break",
+      "label": "\u00dcretilen \u00dcr\u00fcnler"
+    },
+    {
+      "fieldname": "uretilen_urunler",
+      "fieldtype": "Table",
+      "label": "\u00dcretilen \u00dcr\u00fcnler",
+      "options": "Uretilen Urun"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "no_copy": 1,
+      "options": "Curuf Isleme",
+      "print_hide": 1,
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "is_submittable": 1,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Curuf Isleme",
+  "naming_rule": "By \"Naming Series\"",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "submit": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 1
+}

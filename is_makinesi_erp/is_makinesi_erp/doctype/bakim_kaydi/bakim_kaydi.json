@@ -1,0 +1,141 @@
+{
+  "actions": [],
+  "autoname": "BK-.YYYY.-.####",
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "makine",
+    "tarih",
+    "column_break_1",
+    "bakim_tipi",
+    "proje",
+    "section_break_islem",
+    "yapilan_islem",
+    "section_break_maliyet",
+    "toplam_maliyet",
+    "section_break_parcalar",
+    "kullanilan_parcalar",
+    "section_break_masraflar",
+    "masraf_kalemleri",
+    "amended_from"
+  ],
+  "fields": [
+    {
+      "fieldname": "makine",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Makine",
+      "options": "Makine",
+      "reqd": 1
+    },
+    {
+      "fieldname": "tarih",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Tarih",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "bakim_tipi",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Bak\u0131m Tipi",
+      "options": "Periyodik Bak\u0131m\nAr\u0131za Onar\u0131m\u0131\nKaza Onar\u0131m\u0131\nRevizyon"
+    },
+    {
+      "fieldname": "proje",
+      "fieldtype": "Link",
+      "label": "Proje",
+      "options": "Project"
+    },
+    {
+      "fieldname": "section_break_islem",
+      "fieldtype": "Section Break",
+      "label": "Yap\u0131lan \u0130\u015flem"
+    },
+    {
+      "fieldname": "yapilan_islem",
+      "fieldtype": "Text",
+      "label": "Yap\u0131lan \u0130\u015flem",
+      "reqd": 1
+    },
+    {
+      "fieldname": "section_break_maliyet",
+      "fieldtype": "Section Break",
+      "label": "Maliyet"
+    },
+    {
+      "fieldname": "toplam_maliyet",
+      "fieldtype": "Currency",
+      "in_list_view": 1,
+      "label": "Toplam Maliyet",
+      "reqd": 1
+    },
+    {
+      "fieldname": "section_break_parcalar",
+      "fieldtype": "Section Break",
+      "label": "Kullan\u0131lan Par\u00e7alar"
+    },
+    {
+      "fieldname": "kullanilan_parcalar",
+      "fieldtype": "Table",
+      "label": "Kullan\u0131lan Par\u00e7alar",
+      "options": "Kullanilan Parca"
+    },
+    {
+      "fieldname": "section_break_masraflar",
+      "fieldtype": "Section Break",
+      "label": "Masraf Kalemleri"
+    },
+    {
+      "fieldname": "masraf_kalemleri",
+      "fieldtype": "Table",
+      "label": "Masraf Kalemleri",
+      "options": "Masraf Kalemi"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "no_copy": 1,
+      "options": "Bakim Kaydi",
+      "print_hide": 1,
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "is_submittable": 1,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Bakim Kaydi",
+  "naming_rule": "By \"Naming Series\"",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "submit": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 1
+}

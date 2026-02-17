@@ -1,0 +1,47 @@
+{
+  "actions": [],
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "masraf_kategorisi",
+    "aciklama",
+    "tutar"
+  ],
+  "fields": [
+    {
+      "fieldname": "masraf_kategorisi",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Masraf Kategorisi",
+      "options": "Yedek Par\u00e7a\n\u0130\u015f\u00e7ilik\nSigorta\nLastik\nFiltre\nYa\u011f\nDi\u011fer",
+      "reqd": 1
+    },
+    {
+      "fieldname": "aciklama",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "A\u00e7\u0131klama"
+    },
+    {
+      "fieldname": "tutar",
+      "fieldtype": "Currency",
+      "in_list_view": 1,
+      "label": "Tutar",
+      "reqd": 1
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "istable": 1,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Masraf Kalemi",
+  "naming_rule": "Random",
+  "owner": "Administrator",
+  "permissions": [],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 0
+}

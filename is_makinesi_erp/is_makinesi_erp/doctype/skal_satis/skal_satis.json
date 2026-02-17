@@ -1,0 +1,118 @@
+{
+  "actions": [],
+  "autoname": "SS-.YYYY.-.####",
+  "creation": "2024-01-01 00:00:00.000000",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "musteri",
+    "urun_turu",
+    "miktar_ton",
+    "column_break_1",
+    "birim_fiyat",
+    "toplam_tutar",
+    "satis_tarihi",
+    "section_break_ref",
+    "kantar_fisi",
+    "amended_from"
+  ],
+  "fields": [
+    {
+      "fieldname": "musteri",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "M\u00fc\u015fteri",
+      "options": "Customer",
+      "reqd": 1
+    },
+    {
+      "fieldname": "urun_turu",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "\u00dcr\u00fcn T\u00fcr\u00fc",
+      "options": "Item",
+      "reqd": 1
+    },
+    {
+      "fieldname": "miktar_ton",
+      "fieldtype": "Float",
+      "in_list_view": 1,
+      "label": "Miktar (Ton)",
+      "reqd": 1
+    },
+    {
+      "fieldname": "column_break_1",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "birim_fiyat",
+      "fieldtype": "Currency",
+      "label": "Birim Fiyat",
+      "reqd": 1
+    },
+    {
+      "fieldname": "toplam_tutar",
+      "fieldtype": "Currency",
+      "in_list_view": 1,
+      "label": "Toplam Tutar",
+      "read_only": 1
+    },
+    {
+      "fieldname": "satis_tarihi",
+      "fieldtype": "Date",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Sat\u0131\u015f Tarihi",
+      "reqd": 1
+    },
+    {
+      "fieldname": "section_break_ref",
+      "fieldtype": "Section Break",
+      "label": "Referanslar"
+    },
+    {
+      "fieldname": "kantar_fisi",
+      "fieldtype": "Link",
+      "label": "Kantar Fi\u015fi",
+      "options": "Kantar Fisi"
+    },
+    {
+      "fieldname": "amended_from",
+      "fieldtype": "Link",
+      "label": "Amended From",
+      "no_copy": 1,
+      "options": "Skal Satis",
+      "print_hide": 1,
+      "read_only": 1
+    }
+  ],
+  "index_web_pages_for_search": 0,
+  "is_submittable": 1,
+  "links": [],
+  "modified": "2024-01-01 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Is Makinesi ERP",
+  "name": "Skal Satis",
+  "naming_rule": "By \"Naming Series\"",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "submit": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "desc",
+  "track_changes": 1
+}
